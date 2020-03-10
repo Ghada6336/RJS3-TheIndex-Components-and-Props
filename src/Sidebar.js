@@ -1,16 +1,10 @@
 
-import React ,{ Component }  from "react";
-// function MyFirstComponent() {
-//     return (
-//         <h1>I just created my first component</h1>
-//     );
-// }
+import React   from "react";
 
-// export default MyFirstComponent;
 // Sidebar
 function Sidebar() {
     return (
-//<div className="col-2">
+<div className="col-2">
           <div id="sidebar">
             <img src="theindex.svg" className="logo" alt="the index logo" />
             <section>
@@ -19,7 +13,7 @@ function Sidebar() {
               </h4>
             </section>
           </div>
-//</div>
+</div>
     );
 }
 export default Sidebar;
